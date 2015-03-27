@@ -1,1 +1,9 @@
-echo.message: " echo!!!!11"
+echo:
+  message: " echo!!!!11"
+
+rest2soap:
+  jaxbContext: demo.soap
+  requestType: FahrenheitToCelsius
+  requestClass: ${rest2soap.jaxbContext}.${rest2soap.requestType}
+  soapAction: http://www.w3schools.com/webservices/FahrenheitToCelsius
+  endpoint: http://www.w3schools.com/webservices/tempconvert.asmx
