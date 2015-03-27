@@ -1,5 +1,5 @@
 echo:
-  message: " echo!!222"
+  message: " echo!!2223"
 
 rest2soap:
   jaxbContext: demo.soap
