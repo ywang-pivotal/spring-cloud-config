@@ -3,8 +3,8 @@ echo:
 
 rest2soap:
   jaxbContext: demo.soap
-  requestType: FahrenheitToCelsius
-  #requestType: CelsiusToFahrenheit
-  soapAction: http://www.w3schools.com/webservices/FahrenheitToCelsius
-  #soapAction: http://www.w3schools.com/webservices/CelsiusToFahrenheit
+  #requestType: FahrenheitToCelsius
+  requestType: CelsiusToFahrenheit
+  #soapAction: http://www.w3schools.com/webservices/FahrenheitToCelsius
+  soapAction: http://www.w3schools.com/webservices/CelsiusToFahrenheit
   endpoint: http://www.w3schools.com/webservices/tempconvert.asmx
