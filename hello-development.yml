@@ -1,4 +1,4 @@
 hello:
-  message: "Hello spring!!!1111"
+  message: "Hello spring v1.0.0!"
 logging.level:
   demo.Application: DEBUG
