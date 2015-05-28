@@ -1,4 +1,4 @@
 hello:
-  message: "Hello spring!!!1111"
+  message: "Hello demo"
 logging.level:
   demo: INFO
