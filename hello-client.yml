@@ -1,2 +1,3 @@
 logging.level:
   demo: DEBUG
+  org.springframework.cloud.netflix.hystrix: TRACE
